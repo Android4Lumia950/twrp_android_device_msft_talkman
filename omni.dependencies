@@ -1,9 +1,9 @@
 [
   {
-    "remote": "omnirom",
-    "repository": "android_kernel_lge_bullhead",
+    "remote": "Android4Lumia950",
+    "repository": "android_kernel_msft_talkman",
     "target_path": "kernel/lge/bullhead",
-    "revision": "android-6.0"
+    "revision": "aarch64-linux-gnu-gcc8.2los18.1perf"
   },
   {
     "remote": "aosp",
