@@ -5,7 +5,7 @@ TARGET_KERNEL_CONFIG := lineageos_bullhead_defconfig
 
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
-TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-gnu-
 TARGET_USES_UNCOMPRESSED_KERNEL := true
 
 # Use device's audio_effects.conf
