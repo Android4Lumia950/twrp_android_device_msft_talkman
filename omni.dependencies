@@ -3,7 +3,7 @@
     "remote": "Android4Lumia950",
     "repository": "android_kernel_msft_talkman",
     "target_path": "kernel/lge/bullhead",
-    "revision": "aarch64-linux-gnu-gcc8.2los18.1perf"
+    "revision": "twrp"
   },
   {
     "remote": "aosp",
