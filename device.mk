@@ -26,8 +26,7 @@ PRODUCT_COPY_FILES += \
     device/lge/bullhead/fstab.bullhead:root/fstab.bullhead \
     device/lge/bullhead/ueventd.bullhead.rc:root/ueventd.bullhead.rc \
     device/lge/bullhead/init.bullhead.sensorhub.rc:root/init.bullhead.sensorhub.rc \
-    device/lge/bullhead/init.bullhead.ramdump.rc:root/init.bullhead.ramdump.rc \
-    device/lge/bullhead/init.bullhead.fp.rc:root/init.bullhead.fp.rc
+    device/lge/bullhead/init.bullhead.ramdump.rc:root/init.bullhead.ramdump.rc
 
 PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_audio.xml:system/etc/media_codecs_google_audio.xml \
@@ -66,7 +65,6 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.camera.front.xml:system/etc/permissions/android.hardware.camera.front.xml \
     frameworks/native/data/etc/android.hardware.camera.full.xml:system/etc/permissions/android.hardware.camera.full.xml \
     frameworks/native/data/etc/android.hardware.camera.raw.xml:system/etc/permissions/android.hardware.camera.raw.xml \
-    frameworks/native/data/etc/android.hardware.fingerprint.xml:system/etc/permissions/android.hardware.fingerprint.xml \
     frameworks/native/data/etc/android.hardware.location.gps.xml:system/etc/permissions/android.hardware.location.gps.xml \
     frameworks/native/data/etc/android.hardware.wifi.xml:system/etc/permissions/android.hardware.wifi.xml \
     frameworks/native/data/etc/android.hardware.wifi.direct.xml:system/etc/permissions/android.hardware.wifi.direct.xml \
@@ -177,10 +175,6 @@ PRODUCT_PACKAGES += \
     nfc_nci.bullhead \
     NfcNci \
     Tag
-
-# Fingerprint Sensor
-PRODUCT_PACKAGES += \
-    fingerprint.bullhead
 
 # Wi-Fi
 PRODUCT_PACKAGES += \
